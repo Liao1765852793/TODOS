@@ -1,0 +1,30 @@
+<view class="container">
+
+	<view class="search">
+		<image src="../../images/plus.png"> </image>
+		<input type="text" placeholder="Anything here..."></input>
+	</view>
+
+	<view class="todos">
+		<view class="item">
+			<icon type="success"></icon>
+			<text>Learning HTML</text>
+			<icon type="clear" size="16"></icon>
+		</view>
+		<view class="item">
+			<icon type="success"></icon>
+			<text>Learning CSS</text>
+			<icon type="clear" size="16"></icon>
+		</view>
+		<view class="item">
+			<icon type="success"></icon>
+			<text>Learning Javascript</text>
+			<icon type="clear" size="16"></icon>
+		</view>
+	</view>
+	<view class="footer">
+		<text>Toggle all</text>
+		<text>2 items left</text>
+		<text>Clear completed</text>
+	</view>
+</view>
